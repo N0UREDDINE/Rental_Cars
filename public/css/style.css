@@ -1,0 +1,142 @@
+main {
+    background-color: #F6F1E9;
+}
+
+#navbarSupportedContent {
+    font-size: larger;
+}
+
+
+.nav-dashboard,
+.nav-home,
+.nav-location,
+.nav-drivers {
+    font-size: 15px !important;
+}
+
+.nav-dashboard:hover,
+.nav-home:hover,
+.nav-location:hover,
+.nav-drivers:hover {
+    background-color: rgb(44, 43, 43);
+}
+
+.clicked {
+    color: #FFA500 !important;
+}
+
+
+/* Car Details Section */
+
+.car-details {
+    padding: 80px 0;
+}
+
+.car-image img {
+    width: 100%;
+}
+
+.car-info h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.car-info p {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.car-info .button-group {
+    margin-top: 20px;
+}
+
+.car-info .button-group .btn {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+
+/*  For Pendings  */
+
+#pending-bookings {
+    margin: 20px;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+#pending-bookings h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#pending-bookings table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#pending-bookings th {
+    text-align: left;
+    background-color: #ddd;
+    padding: 8px;
+}
+
+#pending-bookings td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#pending-bookings tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#pending-bookings button {
+    margin-top: 10px;
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#pending-bookings button:hover {
+    background-color: #3e8e41;
+}
+
+
+/* Garage Icon */
+
+.garage-icon-container {
+    position: relative;
+    display: inline-block;
+}
+
+.garage-count {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: #F7D060;
+    color: black;
+    font-size: 10px;
+    border-radius: 20%;
+    padding: 4px;
+    min-width: 18px;
+    text-align: center;
+}
+
+.garage-icon {
+    position: relative;
+    bottom: 25px;
+    width: 2px;
+    height: 50px;
+    width: 50px;
+    margin-top: 27px
+}
+
+.navbar-nav {
+    opacity: 0.8;
+    font-weight: lighter;
+}
